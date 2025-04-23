@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.goal-card {
+  background-color: #ccf6e0;
+  border-left: 5px solid #61dafb;
+}
+
+.form-card {
+  background-color: #e6f7ff;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .goals-list {
+    margin-top: 20px;
+  }
+}
